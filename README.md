@@ -1,4 +1,4 @@
-# WaterQuality-DCGCN-Mamba
+# DCMB-Water-Model
 
 ## Overview
 
@@ -111,23 +111,6 @@ Run:
 ```bash
 python train.py
 ```
-
-## Testing
-
-Run:
-
-```bash
-python test.py
-```
-
-The test script reports:
-
-```text
-MSE
-MAE
-R2
-```
-
 ## Notes
 
 Before running the code, please check the settings in `config.py`, especially:
